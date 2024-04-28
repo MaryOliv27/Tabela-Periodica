@@ -1,0 +1,103 @@
+
+
+*{
+    margin: 0;
+    padding: 0
+}
+
+header{
+    background-color: #000000;
+    color: #fff;
+    font-size: 200%;
+    height: 50px;
+    padding-top: 1%;
+    padding-left: 2%;
+    text-align: center;
+}
+body {
+    background-color: rgb(181, 231, 227) ;
+}
+.elements,.alcaterra, .naometais, .outros, .actinideos, .gasesnobres, .semimetais,
+    .transicao, .alcalinos, .halogenios, .lantanideos{
+        border: 1px solid #000; 
+        text-align: center;
+        padding: 5px;
+}
+
+table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+td{
+    width: 20px;
+    height: 20px;
+}
+
+.tamanho{
+    width: 20px;
+    height: 20px;
+}
+
+th{
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+.familia{
+    font-size:10px;
+    
+}
+
+.naometais{
+    background-color: #73ec4e;
+}
+.alcaterra{
+    background-color: #def170;
+}
+.outros{
+    background-color: #a1d0eb;
+}
+.actinideos{
+    background-color: #c469cc;
+}
+.gasesnobres{
+    background-color: #633bcf;
+    color:white;
+}
+.semimetais{
+    background-color: #37d3a4;
+}
+.transicao{
+    background-color: #ce933a;
+}
+.alcalinos{
+    background-color: #8d8b26;
+}
+.halogenios{
+    background-color: #6ac7ca;
+}
+.lantanideos{
+    background-color: #f8acac;
+}
+
+input{
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.text{
+    margin-left: 30px;
+}
+
+.legenda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
